@@ -20,4 +20,4 @@ class TestCalculator:
         assert 2 == calculator.division(4, 2)
 
     def test_division_with_zero(self):
-        return 0 == calculator.division(4, 0)
+        assert 0 == calculator.division(4, 0)
